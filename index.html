@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>PORTFOLIO WEBPAGE</title>
+       <!--This is the title of webpage-->
+       <style>
+            ul {
+                background-color: #3ba269;
+                list-style-type: none;/*removes list markers*/
+                 }
+                 li {
+                    display: inline;/*list items shown horizontally*/
+                 } 
+
+                  li a {
+                     display: inline-block;/*links act like blocks*/
+                     color:white;/*text color*/
+                     text-align: center;/*centers text*/
+                     text-decoration: underline;
+                    } 
+                  li a:hover {
+                      background-color: #d82727; /*color of link when pointer is on it*/
+                  }
+
+                 #work ul li{
+                     display:block;/*css for work section list*/
+                     color: #f9fbfb;
+
+                    }
+
+                 #work ul li {
+                      margin-bottom: 10px;
+                 }
+
+                 h2 {
+                    color: #3ba269;
+                 }
+
+                 #resume ul li{
+                      display: block;
+                      color: #f9fbfb;
+                 }
+                 
+                 
+       </style>
+   </head>
+   <body>
+    <header>
+    <!--navbar-->
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    </header>
+
+    <!--About section-->
+    <section id="about">
+         <h2>About</h2>
+         <p>Hello, I am Flavian Kibe, a software engineer student at GOMYCODE Kenya based in Westlands,Nairobi. I have a curiosity for coding and interest in how software is created.
+            The software engineering bootcamp coarse is my way to equip myself with skills for software development. In my free time I enjoy exploring
+             new places and forming friendships to up my social skills. Feel welcome to look at the rest of my portfolio and get to know me better.
+         </p>
+         <br>
+    <!--An image-->
+    <img src="pictures/about me.jpg" alt="about me">
+    <br>
+    <!--A video of my classroom-->
+    <h2>This is a video of my classroom</h2>
+    <video src="My classroom.mp4" controls width="300"></video>
+    
+
+    </section>
+
+    <!--work section-->
+    <section id="work">
+        <h2>Work</h2>
+        <p>I provided customer service and facilitated dining experience in a restaurant setting, this taught me to have a keen ear for clients needs and to asses them and give a satisfactory service 
+            to my clients. In this environment I interacted with POS software as a user and it fueled my curiosity further on how the back end or codeing 
+            side of such software would look like. At somepoint, on my own efforts with an online coarse for 3 weeks, I farmiliarised myself lightly on how to use git
+            and github.
+                    <ul>
+                        <li>Explored git and github</li>
+                        <li>Learned how to navigate command line</li>
+                        <li>Customer service</li>
+                    </ul>
+                </p>
+    <!--An image-->
+    <img src="pictures/work.jpg" alt="work">
+
+    </section>
+
+    <!--Resume-->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Highly eager and curious software engineer student who is goal driven. Excited to one day have the title of qualified software engineer.
+<br>
+<br>
+            <em>Experience
+<br>
+                <ul>
+                    <li>Customer Service</li>
+<br>
+                    <li>Git and Github- not super skilled</li>
+                </ul>
+<br>
+                Languages
+<br> 
+                <ul>
+                    <li>English- Proficient</li>
+<br>
+                    <li>Korean- Beginner</li>
+                </ul>
+</em>
+        </p>
+         <!--An image-->
+         <img src="pictures/my resume.jpg" alt="my resume">
+
+    </section>
+    <!--Contact-->
+    <section id="contact">
+    <h2>Contact</h2>
+    <p>Feel free to reach out to me on my email <a href="mailto:flaviankibe@gmail.com">contact me</a>
+    </p>
+
+         <!--An image-->
+         <img src="pictures/contactme.png" alt="contact me">
+
+    <form action="/submit-contact-form"
+    method="post">
+             <label for="name">Name:</label><br>
+             <input type="text" id="name" name="name"><br>
+             <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="subject">Subject:</label><br>
+            <input type="text" id="subject" name="subject"><br>
+            <label for="message">Message:</label><br>
+                         <textarea id="message"
+                   name="message" rows="4"
+                   cols="50"></textarea><br>
+                            <input type="submit"
+                   value="submit">
+            
+             </form>
+             
+    </section>
+
+    <!--My Portfolio Music-->
+    <section id="youtube video">
+        <h2>My Portfolio Music</h2>
+        <p>Here is some music I listen to while coding. It helps me stay focused.
+</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/M5QY2_8704o?si=MzptP_GOFptEb-Qp" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen></iframe>  
+</section>
+
+<!--footer section-->
+<footer>
+    <p>&copy; 2024 Flavian. All rights reserved.</p>
+</footer>
+   </body>
+
+
+
+
+
+
+
+
+</html>
