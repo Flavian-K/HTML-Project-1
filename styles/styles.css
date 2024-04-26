@@ -1,0 +1,57 @@
+.navbar ul, li{
+    display: inline-block;
+    background-color: rgb(39, 235, 170);
+    margin-right: 10px;
+    margin-left: 40px;
+    margin-top: 0;
+    padding: 10px;
+}
+.navbar {
+    display: inline;
+}
+.logo {
+    display: inline-block;
+    color: azure;
+}
+
+.logo { 
+    background-color: rgb(39, 235, 170);
+    margin-right: 10px;
+    margin-top: 0;
+    padding: 13px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.p-heads{
+    background-color: rgb(39, 235, 170);
+    color: azure;
+}
+
+
+
+
+/* .navbar li{
+display: inline;
+margin-right: 10px;
+}
+
+.navbar a{
+text-decoration: none;
+color: azure;
+} */
+
+
+
+a {
+    text-decoration: none;
+}
+
+/* ul {
+    display: flex;
+} */
+
+
+
